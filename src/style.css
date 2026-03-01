@@ -42,8 +42,8 @@ form .searchBtn {
   justify-content: space-between;
 
   margin: 20px;
-  border-top: 1px solid rgb(233, 230, 230);
-  border-bottom: 1px solid rgb(220, 219, 219);
+  border-top: 1px solid #f9f7fe;
+  border-bottom: 1px solid #f9f7fe;
   /* box-shadow: 0 0 0 1px rgb(218, 215, 215); */
 }
 h1 {
@@ -59,8 +59,10 @@ h1 {
   font-weight: bold;
 }
 p {
-  line-height: 35px;
-  color: rgb(101, 99, 96);
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
 .temparature {
   margin-top: 30px;

@@ -17,7 +17,7 @@ function weatherDataUpdate(e) {
   axios.get(url).then((response) => {
     // let now = data.time;
     // let now = new Date();
-    cityName.innerHTML = city;
+    cityName.innerHTML = response.data.city;
     let now = new Date(response.data.time * 1000); // Convert timestamp to milliseconds
     let day = now.getDay();
     let time = now.getHours();

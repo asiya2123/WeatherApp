@@ -1,41 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WEATHERAPP</title>
-    <link rel="stylesheet" href="src/style.css">
-</head>
-<body>
-<div class="weaterAPPHtml">
-    <header>
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="weaterAPPHtml">
+      <header>
         <form action="submit" class="searchForm" id="searchForm">
-        <input type="search" required placeholder="Enter city name....." class="searchInput" id="searchInput">
-        <input type="submit" value="Search" class="searchBtn" id="searchBtn">
+          <input
+            type="search"
+            required
+            placeholder="Enter city name....."
+            class="searchInput"
+            id="searchInput"
+          />
+          <input
+            type="submit"
+            value="Search"
+            class="searchBtn"
+            id="searchButton"
+          />
         </form>
-    </header>
-    <main>
+      </header>
+      <main>
         <div class="WeatherDetails">
-          <div  class="description-data">
-                <h1 id="cityName" class="cityName">Paris</h1>
-                <div class="description-data">
-                    <p><span class="time">Wednesday 21:00,</span>
-                    <span class="description">few clouds</span></p>
-                    
-                      <p><span class="humidity">Humidity: <span class="color">51%</span>,</span>
-                        <span class="windspeed">Wind: <span class="color">3.09km/h</span></span> </p>   
-                </div>
-
+          <div class="description-data">
+            <h1 id="cityName" class="cityName">Paris</h1>
+            <div class="description-data">
+              <p>
+                <span class="time">Wednesday 21:00,</span>
+                <span class="description">few clouds</span>
+                <br />
+                <span class="humidity"
+                  >Humidity: <span class="color">51%</span>,</span
+                >
+                <span class="windspeed"
+                  >Wind: <span class="color">3.09km/h</span></span
+                >
+              </p>
             </div>
-           <div class="temparature"><div class="icon">🌥️</div>
+          </div>
+          <div class="temparature">
+            <div class="icon">
+              <img
+                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-night.png"
+                alt=""
+                id="icon"
+              />
+            </div>
             <div class="number">12</div>
-                <div class="deg">°C</div>
-            </div>
+            <div class="deg">°C</div>
+          </div>
         </div>
-   
-    </main>
-    <footer><p>This project was coded by <a href="https://github.com/asiya2123">Shaik Asiya</a>, is open-sourced on <a href="" class="gitrepo">GitHub</a> and hosted on <a href="" class="hostinglink">Netlify</a></p></footer>
-</div>
-    
-</body>
+      </main>
+      <footer>
+        <p>
+          This project was coded by
+          <a href="https://github.com/asiya2123">Shaik Asiya</a>, is
+          open-sourced on
+          <a href="https://github.com/asiya2123/WeatherApp.git/" class="gitrepo"
+            >GitHub</a
+          >
+          and hosted on <a href="" class="hostinglink">Netlify</a>
+        </p>
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
 </html>

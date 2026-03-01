@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(232, 232, 244);
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+.weaterAPPHtml {
+  background-color: white;
+  text-align: center;
+  padding: 35px;
+  border-radius: 30px;
+  width: 600px;
+}
+form {
+  display: flex;
+  gap: 5px;
+}
+form .searchInput {
+  background-color: rgb(232, 232, 244);
+  width: 78%;
+  height: 50px;
+  padding-left: 1rem;
+  line-height: 18px;
+  border-radius: 5px 0px 0px 5px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+form .searchBtn {
+  height: 50px;
+  width: 100px;
+  background-color: rgb(130, 130, 241);
+  border-radius: 0px 5px 5px 0px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+.WeatherDetails {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 20px;
+  border-top: 1px solid rgb(233, 230, 230);
+  border-bottom: 1px solid rgb(220, 219, 219);
+  /* box-shadow: 0 0 0 1px rgb(218, 215, 215); */
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.description-data {
+  text-align: left;
+}
+.color {
+  color: red;
+  font-weight: bold;
+}
+p {
+  line-height: 35px;
+  color: rgb(101, 99, 96);
+}
+.temparature {
+  margin-top: 30px;
+  font-weight: bold;
+  display: flex;
+}
+.icon {
+  font-size: 30px;
+}
+.number {
+  font-size: 86px;
+  font-weight: bold;
+}
+.deg {
+  font-size: 25px;
+  margin-bottom: 80px;
+}
+footer p {
+  color: rgb(101, 99, 96);
+  /* font-size: 10px; */
+}

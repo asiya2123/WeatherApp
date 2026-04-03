@@ -3,14 +3,14 @@ body {
   display: flex;
   justify-content: center;
   font-family: "Roboto", sans-serif;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 .weaterAPPHtml {
   background-color: white;
   /* text-align: center; */
   padding: 10px;
   border-radius: 15px;
-  width: 600px;
+  width: 800px;
 }
 form {
   display: flex;
